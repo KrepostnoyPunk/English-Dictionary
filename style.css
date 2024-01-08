@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background: linear-gradient(to left bottom, lightgray, lightpink);
+    font-family: cursive;
+}
+
+.container{
+    background-color: rgba(255,182,193, .3);
+    padding: 40px;
+    border-radius: 7px;
+    box-shadow: 0 10px 10px rgba(25,25,25,.3);
+    width: 90%;
+    margin: 10px;
+    max-width: 450px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.input{
+    height: 53px;
+    width: 300px;
+    background-color: rgba(255,255,255,.6);
+    border-color: rgba(255,255,255,.6);
+    font-size: 16px;
+    padding: 0 42px;
+    border-radius: 7px;
+}
+
+.meaning-container{
+    display: none;
+}
